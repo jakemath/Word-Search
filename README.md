@@ -3,9 +3,9 @@ A program which reads a n X m word search puzzle from a txt file into an n X m 2
 
 Include a sample dictionary txt file and puzzle txt file which are used in main().
 
-To run the code:
+To run the code, place all the files in the same directory and enter:
 
-    >>> g++ main.cpp routines.h routines.cpp
+    >>> g++ -std=c++2a main.cpp routines.h routines.cpp
     >>> ./a.out
     
-Assuming the dictionary.txt and puzzle.txt files are in the working directory, the program will begin searching through the puzzle and will return all the matches with their respective coordinates.
+The program will begin searching through the puzzle and will return all the matches with their respective coordinates.
